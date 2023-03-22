@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.container div{
+    background:gray;
+}
+.container .box-1{
+    grid-column-start: 1;
+    grid-column-end: -1;
+   height: 50px;
+}
+.container .box-2{
+    grid-column-start: 2;
+    grid-column-end: -1;
+    height: 500px;
+}
+.container .box-3{
+    grid-column-start: 1;
+    grid-column-end: -2;
+    height: 200px;
+}
+.conatiner .box-4{
+    grid-column-start: 1;
+    grid-column-end: -2;
+    height: 200px;
+}
+
+
+.container .box-8{
+    grid-column-start: 1;
+    grid-column-end: -3;
+}
+.container .box-7{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    height: 50px;
+}
